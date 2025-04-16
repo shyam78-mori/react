@@ -1,10 +1,22 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import { Btn } from "./btn";
+import Hello from "./Hello";
+import Random from "./Random";
 
 function App() {
-  return <h1>hello guise</h1>;
+  return (
+    <div>
+      <h1>Hello</h1>
+      <Btn></Btn>
+      <Hello></Hello>
+      <Random></Random>
+      <Random></Random>
+      <Random></Random>
+      <Random></Random>
+      <Random></Random>
+      <Random></Random>
+      <Random></Random>
+    </div>
+  );
 }
 
 export default App;
